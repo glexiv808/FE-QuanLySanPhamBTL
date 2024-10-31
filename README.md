@@ -1,2 +1,2 @@
 BE:
-https://github.com/glexiv808/FE-QuanLySanPhamBTL.git
+https://github.com/glexiv808/QuanLySanPham.git
