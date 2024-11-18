@@ -94,7 +94,7 @@ const Home = ({ selectedCategory }) => {
                 className="card mb-3"
                 style={{
                   width: "250px",
-                  height: "360px",
+                  height: "250px",
                   boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
                   borderRadius: "10px",
                   overflow: "hidden", 
@@ -152,11 +152,11 @@ const Home = ({ selectedCategory }) => {
                         className="card-text"
                         style={{ fontWeight: "600", fontSize: "1.1rem",marginBottom:'5px' }}
                       >
-                        <i class="bi bi-currency-rupee"></i>
+                        <i>$</i>
                         {price}
                       </h5>
                     </div>
-                    <button
+                    {/* <button
                       className="btn-hover color-9"
                       style={{margin:'10px 25px 0px '  }}
                       onClick={(e) => {
@@ -166,7 +166,7 @@ const Home = ({ selectedCategory }) => {
                       disabled={!productAvailable}
                     >
                       {productAvailable ? "Add to Cart" : "Out of Stock"}
-                    </button> 
+                    </button>  */}
                   </div>
                 </Link>
               </div>
