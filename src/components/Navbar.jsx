@@ -177,7 +177,7 @@ const Navbar = ({ onSelectCategory, onSearch }) => {
                 <input
                   className="form-control me-2"
                   type="search"
-                  placeholder="Search"
+                  placeholder="Tìm kiếm"
                   aria-label="Search"
                   value={input}
                   onChange={(e) => handleChange(e.target.value)}

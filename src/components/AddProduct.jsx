@@ -87,7 +87,7 @@ const AddProduct = () => {
           <input
             type="text"
             className="form-control"
-            placeholder="Add product description"
+            placeholder="Thêm thông tin sản phẩm"
             value={product.description}
             name="description"
             onChange={handleInputChange}
@@ -101,7 +101,7 @@ const AddProduct = () => {
           <input
             type="number"
             className="form-control"
-            placeholder="Eg: $1000"
+            placeholder="Nhập giá"
             onChange={handleInputChange}
             value={product.price}
             name="price"
@@ -120,7 +120,7 @@ const AddProduct = () => {
             name="category"
             id="category"
           >
-            <option value="">Select category</option>
+            <option value="">Chọn kiểu sản phẩm</option>
             <option value="Laptop">Laptop</option>
             <option value="Headphone">Headphone</option>
             <option value="Mobile">Mobile</option>
@@ -137,7 +137,7 @@ const AddProduct = () => {
           <input
             type="number"
             className="form-control"
-            placeholder="Stock Remaining"
+            placeholder="Lượng hàng còn"
             onChange={handleInputChange}
             value={product.stockQuantity}
             name="stockQuantity"
