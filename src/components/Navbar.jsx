@@ -125,13 +125,8 @@ const Navbar = ({ onSelectCategory, onSearch }) => {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item">
                   <a className="nav-link" href="/add_product">
-                    Add Product
+                    Thêm sản phẩm
                   </a>
                 </li>
 
@@ -143,7 +138,7 @@ const Navbar = ({ onSelectCategory, onSearch }) => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Categories
+                    Danh mục sản phẩm
                   </a>
 
                   <ul className="dropdown-menu">

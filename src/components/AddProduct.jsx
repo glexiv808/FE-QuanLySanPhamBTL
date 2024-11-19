@@ -55,12 +55,12 @@ const AddProduct = () => {
       <form className="row g-3 pt-5" onSubmit={submitHandler}>
         <div className="col-md-6">
           <label className="form-label">
-            <h6>Name</h6>
+            <h6>Tên</h6>
           </label>
           <input
             type="text"
             className="form-control"
-            placeholder="Product Name"
+            placeholder="Tên sản phẩm"
             onChange={handleInputChange}
             value={product.name}
             name="name"
@@ -68,13 +68,13 @@ const AddProduct = () => {
         </div>
         <div className="col-md-6">
           <label className="form-label">
-            <h6>Brand</h6>
+            <h6>Thương hiệu</h6>
           </label>
           <input
             type="text"
             name="brand"
             className="form-control"
-            placeholder="Enter your Brand"
+            placeholder="Thương hiểu của sản phẩm"
             value={product.brand}
             onChange={handleInputChange}
             id="brand"
@@ -82,7 +82,7 @@ const AddProduct = () => {
         </div>
         <div className="col-12">
           <label className="form-label">
-            <h6>Description</h6>
+            <h6>Thông tin sản phẩm</h6>
           </label>
           <input
             type="text"
@@ -96,7 +96,7 @@ const AddProduct = () => {
         </div>
         <div className="col-5">
           <label className="form-label">
-            <h6>Price</h6>
+            <h6>Giá</h6>
           </label>
           <input
             type="number"
@@ -111,7 +111,7 @@ const AddProduct = () => {
      
            <div className="col-md-6">
           <label className="form-label">
-            <h6>Category</h6>
+            <h6>Kiểu sản phẩm</h6>
           </label>
           <select
             className="form-select"
@@ -132,7 +132,7 @@ const AddProduct = () => {
 
         <div className="col-md-4">
           <label className="form-label">
-            <h6>Stock Quantity</h6>
+            <h6>Số lượng sản phẩm</h6>
           </label>
           <input
             type="number"
@@ -147,7 +147,7 @@ const AddProduct = () => {
         </div>
         <div className="col-md-4">
           <label className="form-label">
-            <h6>Release Date</h6>
+            <h6>Ngày ra mắt</h6>
           </label>
           <input
             type="date"
@@ -162,7 +162,7 @@ const AddProduct = () => {
     <button className="btn btn-primary" >Add Photo</button>  */}
         <div className="col-md-4">
           <label className="form-label">
-            <h6>Image</h6>
+            <h6>Ảnh sản phẩm</h6>
           </label>
           <input
             className="form-control"
@@ -182,7 +182,7 @@ const AddProduct = () => {
                 setProduct({ ...product, productAvailable: e.target.checked })
               }
             />
-            <label className="form-check-label">Product Available</label>
+            <label className="form-check-label">Còn hàng</label>
           </div>
         </div>
         <div className="col-12">
@@ -191,7 +191,7 @@ const AddProduct = () => {
             className="btn btn-primary"
             // onClick={submitHandler}
           >
-            Submit
+            Thêm
           </button>
         </div>
       </form>

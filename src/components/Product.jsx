@@ -84,7 +84,7 @@ const Product = () => {
             </span>
             <p className="release-date" style={{ marginBottom: "2rem" }}>
               
-              <h6>Listed : <span> <i> {new Date(product.releaseDate).toLocaleDateString()}</i></span></h6>
+              <h6>Ngày ra mắt : <span> <i> {new Date(product.releaseDate).toLocaleDateString()}</i></span></h6>
               {/* <i> {new Date(product.releaseDate).toLocaleDateString()}</i> */}
             </p>
             </div>
@@ -94,7 +94,7 @@ const Product = () => {
               {product.name}
             </h1>
             <i style={{ marginBottom: "3rem" }}>{product.brand}</i>
-            <p style={{fontWeight:'bold',fontSize:'1rem',margin:'10px 0px 0px'}}>PRODUCT DESCRIPTION :</p>
+            <p style={{fontWeight:'bold',fontSize:'1rem',margin:'10px 0px 0px'}}> THÔNG TIN SẢN PHẨM :</p>
             <p style={{ marginBottom: "1rem" }}>{product.description}</p>
           </div>
 
@@ -102,7 +102,7 @@ const Product = () => {
             <span style={{ fontSize: "2rem", fontWeight: "bold" }}>
               {"$" + product.price}
             </span>
-            <button
+            {/* <button
               className={`cart-btn ${
                 !product.productAvailable ? "disabled-btn" : ""
               }`}
@@ -120,9 +120,9 @@ const Product = () => {
               }}
             >
               {product.productAvailable ? "Add to cart" : "Out of Stock"}
-            </button>
+            </button> */}
             <h6 style={{ marginBottom: "1rem" }}>
-              Stock Available :{" "}
+              Lượng hàng trong kho:{" "}
               <i style={{ color: "green", fontWeight: "bold" }}>
                 {product.stockQuantity}
               </i>
@@ -144,7 +144,7 @@ const Product = () => {
                 cursor: "pointer",
               }}
             >
-              Update
+              Sửa
             </button>
             {/* <UpdateProduct product={product} onUpdate={handleUpdate} /> */}
             <button
@@ -161,7 +161,7 @@ const Product = () => {
                 cursor: "pointer",
               }}
             >
-              Delete
+              Xóa
             </button>
           </div>
         </div>
