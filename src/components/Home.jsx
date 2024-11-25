@@ -94,7 +94,7 @@ const Home = ({ selectedCategory }) => {
                 className="card mb-3"
                 style={{
                   width: "250px",
-                  height: "250px",
+                  height: "400px",
                   boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
                   borderRadius: "10px",
                   overflow: "hidden", 
@@ -115,7 +115,7 @@ const Home = ({ selectedCategory }) => {
                     alt={name}
                     style={{
                       width: "100%",
-                      height: "150px", 
+                      height: "200px", 
                       objectFit: "cover",  
                       padding: "5px",
                       margin: "0",
