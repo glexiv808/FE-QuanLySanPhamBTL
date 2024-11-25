@@ -165,14 +165,14 @@ const Navbar = ({ onSelectCategory, onSearch }) => {
                 )}
               </button>
               <div className="d-flex align-items-center cart">
-                {/* <a href="/cart" className="nav-link text-dark">
+                <a href="/cart" className="nav-link text-dark">
                   <i
                     className="bi bi-cart me-2"
                     style={{ display: "flex", alignItems: "center" }}
                   >
-                    Cart
+                    Giỏ
                   </i>
-                </a> */}
+                </a>
                 {/* <form className="d-flex" role="search" onSubmit={handleSearch} id="searchForm"> */}
                 <input
                   className="form-control me-2"
