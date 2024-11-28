@@ -77,7 +77,7 @@ const Home = ({ selectedCategory }) => {
               alignItems: "center",
             }}
           >
-            No Products Available
+            Không có sản phẩm
           </h2>
         ) : (
           filteredProducts.map((product) => {
@@ -93,7 +93,7 @@ const Home = ({ selectedCategory }) => {
               <div
                 className="card mb-3"
                 style={{
-                  width: "250px",
+                  width: "280px",
                   height: "400px",
                   boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
                   borderRadius: "10px",
@@ -143,7 +143,7 @@ const Home = ({ selectedCategory }) => {
                         className="card-brand"
                         style={{ fontStyle: "italic", fontSize: "0.8rem" }}
                       >
-                        {"~ " + brand}
+                        {brand}
                       </i>
                     </div>
                     <hr className="hr-line" style={{ margin: "10px 0" }} />
